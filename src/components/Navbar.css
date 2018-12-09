@@ -18,9 +18,11 @@
     align-items: center;
 }
 
-.Brand {
+.Brand h3{
     position: relative;
     float: left;
+    font-size: 1.2em;
+    font-weight: 900;
 }
 
 .NavLinks {
@@ -31,4 +33,5 @@
 a {
     padding: 20px;
     color: black;
+    text-decoration: none;
 }

@@ -7,9 +7,12 @@
 
 .ChrisTack {
     z-index: 1;
-    font-family: 'Alfa Slab One', cursive;
-    /* font-family: 'Bungee Shade', cursive; */
-    background-color: Black;
+    background-color: black;
+    /* background-image: url('../images/brand.png'); */
+    /* font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bungee Shade', cursive;
+    background-color: Black; */
+    position: fixed;
     width: 100vw;
     height: 100vh;
     mix-blend-mode: multiply;

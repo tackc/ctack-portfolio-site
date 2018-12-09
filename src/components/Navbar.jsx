@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Portfolio from '../pages/Portfolio';
-import Navbar from './Navbar.css'
+import './Navbar.css'
 
 class Nav extends Component {
 
