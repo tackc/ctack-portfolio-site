@@ -1,0 +1,19 @@
+.Background {
+    z-index: 0;
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ChrisTack {
+    z-index: 1;
+    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Bungee Shade', cursive; */
+    background-color: Black;
+    width: 100vw;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    color: white;
+    font-size: 8em;
+    line-height: 1.5em;
+}

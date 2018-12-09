@@ -10,9 +10,10 @@
     "styled-components": "^4.1.2"
   },
   "scripts": {
-    "build": "parcel build ./src/index.html",
-    "start": "parcel ./src/index.html -p 1337",
-    "test": "react-scripts test",
+    "dev": "parcel ./public/index.html",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "author": "Chris Tack",
