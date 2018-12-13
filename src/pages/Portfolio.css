@@ -1,10 +1,6 @@
-.AboutPane {
+.PortfolioPane {
     background-color: #EA5F79;
     width: 100vw;
     min-height: 100vh;
     margin: 0 auto;
-}
-
-.AboutDescription {
-    font-size: 4em;
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import Project from '../components/Project';
 
 const Portfolio = () => {
     return (
         <div className="PortfolioPane">
-            <h1>Portfolio</h1>
+            <Project />
         </div>
     )
 }

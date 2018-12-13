@@ -4,13 +4,9 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="HomePane">
-            <div className="Background"></div>
-            <div className="ChrisTack">
-                {/* <h1>Full</h1>
-                <h1>Chris Tack</h1>
-                <h1>Developer</h1> */}
-            </div>
+        <div className="HomePane flex-container">
+            <div className="Background flex-item"></div>
+            <div className="ChrisTack flex-item"></div>
         </div>
     )
 }
