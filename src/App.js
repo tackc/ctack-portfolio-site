@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
+import OtherApp from './OtherApp'
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -26,12 +27,17 @@ import {
 class App extends Component {
   render() {
     return (
+      // <div>
+      //   <OtherApp />
+      // </div>
       <div className="App flex-container">
         <Nav className="AppNav flex-item" />
-        <Home className="AppHome flex-item" />
-        <About className="AppAbout flex-item" />
-        <Portfolio className="AppPortfolio flex-item" />
-        <Contact className="AppContact flex-item" />
+        <div className="PageContent">
+          <Home className="AppHome flex-item" />
+          <About className="AppAbout flex-item" />
+          <Portfolio className="AppPortfolio flex-item" />
+          <Contact className="AppContact flex-item" />
+        </div>
         
         {/* <Router>
           <Switch>

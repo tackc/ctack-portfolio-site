@@ -1,10 +1,48 @@
 import React from 'react';
 import './Contact.css';
+import {
+    Button,
+    Column,
+    Container,
+    Divider,
+    Grid,
+    Icon,
+    Input,
+    List,
+    Responsive,
+    Segment,
+} from 'semantic-ui-react'
 
 const Contact = () => {
     return (
         <div className="ContactPane">
-            {/* <h1>Contact</h1> */}
+            <Container className="flex flex-wrap justify-between py-8 w-1/2 sm:w-full ui centered grid">
+                <Grid columns={4} stackable centered>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <h1>Yo...some text!</h1>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <Button color='facebook'><Icon name='facebook' /> Facebook</Button>
+                            <p />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Button color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
+                            <p />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Button color='instagram'><Icon name='instagram' /> Instagram</Button>
+                            <p />
+                        </Grid.Column>
+                        <Grid.Column>
+                            <Button color='github'><Icon name='github' /> Github</Button>
+                            <p />
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
+            </Container>
         </div>
     )
 }

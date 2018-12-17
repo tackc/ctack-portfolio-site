@@ -16,3 +16,9 @@
     min-height: 100vh;
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .ChrisTack {
+        height: 40vh;
+    }
+}
