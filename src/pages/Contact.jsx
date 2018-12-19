@@ -20,7 +20,7 @@ const Contact = () => {
                 <Grid columns={4} stackable centered>
                     <Grid.Row>
                         <Grid.Column>
-                            <h1>Yo...some text!</h1>
+                            {/* <h1>Yo...some text!</h1> */}
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>
@@ -29,7 +29,7 @@ const Contact = () => {
                             <p />
                         </Grid.Column>
                         <Grid.Column>
-                            <Button color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
+                            <Button href="www.linkedin.com/in/christophertack" color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
                             <p />
                         </Grid.Column>
                         <Grid.Column>

@@ -7,14 +7,11 @@
     width: 100%;
 }
 
-.ProjectTitle {
-
+ul {
+    list-style-type: none;
 }
 
-.ProjectDescription {
-
-}
-
-.ProjectTechnologiesUsed {
-
+li {
+    list-style: square;
+    color: #333;
 }
