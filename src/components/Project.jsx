@@ -18,17 +18,6 @@ class Project extends Component {
 
     render() {
         return (
-            // <div className="ProjectPane flex-container">
-            //     <div className="ProjectScreenshot flex-item"></div>
-            //     <h3 className="ProjectTitle flex-item">Project Title</h3>
-            //     <p className="ProjectDescription flex-item">Project description goes here...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus cursus nisi, et facilisis felis consectetur in. Ut auctor dapibus ligula, vitae semper lacus gravida ac. Vestibulum finibus sed leo id sodales. Sed vel mauris at ligula molestie mollis. Nulla ac scelerisque lorem. Phasellus laoreet, risus vitae sollicitudin rhoncus, diam augue egestas nisi, quis dignissim sapien ligula a lacus. Fusce eget erat commodo, egestas tortor eu, suscipit sapien. Cras id nunc sit amet sem vehicula tempor eget sed nulla. Phasellus congue sed lectus at tincidunt. Aliquam vitae quam nisl. Praesent eu tortor malesuada, pretium metus eu, finibus turpis. Vestibulum placerat velit vitae lorem aliquet, in efficitur ex sollicitudin.</p>
-            //     <ul className="ProjectTechnologiesUsed flex-item">
-            //         <li>HTML</li>
-            //         <li>CSS</li>
-            //         <li>Javascript</li>
-            //         <li>ReactJS</li>
-            //     </ul>
-            // </div>
             <Segment style={{ padding: '0em' }} vertical>
                 <Grid celled='internally' columns='equal' stackable>
                     <Grid.Row textAlign='center'>
@@ -49,8 +38,8 @@ class Project extends Component {
                                 <li>CSS</li>
                                 <li>Vanilla JS</li>
                             </List>
-                            <a href="https://tackc.github.io/memory-game/">View the App</a>
-                            <a href="https://github.com/tackc/memory-game">View the Code</a>
+                            <Button href="https://tackc.github.io/memory-game/">View the App</Button>
+                            <Button href="https://github.com/tackc/memory-game">View the Code</Button>
                         </Grid.Column>
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -73,8 +62,8 @@ class Project extends Component {
                                 <li>RESTful</li>
                                 <li>mongoDB</li>
                             </List>
-                            <a href="https://still-spire-43106.herokuapp.com/">View the App</a>
-                            <a href="https://github.com/tackc/toollibrary/blob/master/README.md">View the Code</a>
+                            <Button href="https://still-spire-43106.herokuapp.com/">View the App</Button>
+                            <Button href="https://github.com/tackc/toollibrary/">View the Code</Button>
                         </Grid.Column>
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -83,7 +72,7 @@ class Project extends Component {
                             </Header>
                             <Image src='https://i.imgur.com/HJUyoRs.png' style={{paddingBottom: '3em', paddingTop: '2em'}}/>
                             <p style={{ fontSize: '1.33em' }}>
-                            Mobile-first team project (Henry Hong & Sutthirath Sean Vilaysane). We consumed the One Bus Away API and created an app allowing users to find bus stops near their current location.
+                            Mobile-first team project (Henry Hong & Sutthirath Sean Vilaysane). We consumed the One Bus Away API and created an app allowing users to find bus stops near their current location on a map using the mapbox API.
                             </p>
                             <List style={{fontSize: '1.33em'}}>
                             <b>Technologies Used:</b>
@@ -96,8 +85,8 @@ class Project extends Component {
                                 <li>mapbox API</li>
                                 <li>OneBusAway API</li>
                             </List>
-                            <a href="https://nameless-harbor-37613.herokuapp.com/">View the App</a>
-                            <a href="https://github.com/tackc/SeattleTransit?files=1">View the Code</a>
+                            <Button href="https://nameless-harbor-37613.herokuapp.com/">View the App</Button>
+                            <Button href="https://github.com/tackc/SeattleTransit?files=1">View the Code</Button>
                         </Grid.Column>
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -111,12 +100,13 @@ class Project extends Component {
                             <List style={{fontSize: '1.33em'}}>
                             <b>Technologies Used:</b>
                                 <li>React</li>
+                                <li>React Router</li>
                                 <li>Javascript</li>
-                                <li>React</li>
-                                <li>React</li>
+                                <li>CSS</li>
+                                <li>National Parks Service API</li>
                             </List>
-                            <a href="https://nationalparksfinder.herokuapp.com/">View the App</a>
-                            <a href="https://github.com/tackc/proj4-national-park-finder?files=1">View the Code</a>
+                            <Button href="https://nationalparksfinder.herokuapp.com/">View the App</Button>
+                            <Button href="https://github.com/tackc/proj4-national-park-finder?files=1">View the Code</Button>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
