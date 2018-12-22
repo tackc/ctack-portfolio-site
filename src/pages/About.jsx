@@ -2,19 +2,11 @@ import React from 'react';
 import './About.css'
 import Headshot from '../images/headshot.jpg'
 import {
-    Button,
-    Container,
-    Divider,
     Grid,
     Header,
     Icon,
     Image,
-    List,
-    Menu,
-    Responsive,
     Segment,
-    Sidebar,
-    Visibility,
 } from 'semantic-ui-react'
 
 const About = ({ mobile }) => {
@@ -45,12 +37,34 @@ const About = ({ mobile }) => {
                             <br/>  
                             <br/>
                             <strong>Fun fact: </strong>
-                            I built and lived in a tiny house for 4 years with my wife & cat!
+                            I built and lived in a tiny house for 4 years with my wife!
                             </p>
                         </Grid.Column>
                         <Grid.Column floated='right' width={6}>
                             <Image bordered rounded size='large circular' src={Headshot} />
                         </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Header 
+                                as='h1'
+                                // inverted
+                                style={{
+                                    fontSize: mobile ? '1.5em' : '3em',
+                                    fontWeight: 'normal',
+                                    marginBottom: '0',
+                                    paddingBottom: '1em',
+                                    marginTop: mobile ? '.5em' : '1em',
+                                    margin: '0 auto',
+                                }}>
+                                <Icon name='html5' />
+                                <Icon name='css3' />
+                                <Icon name='github' />
+                                {/* <Icon name='express' /> */}
+                                <Icon name='node js' />
+                                <Icon name='npm' />
+                                <Icon name='python' />
+                                <Icon name='django' />
+                            </Header>
                     </Grid.Row>
                 </Grid>
             </Segment>

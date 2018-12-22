@@ -25,11 +25,11 @@ const Contact = () => {
                     </Grid.Row>
                     <Grid.Row>
                         <Grid.Column>
-                            <Button color='facebook'><Icon name='generic' /> Facebook</Button>
+                            <Button target="_blank" href="https://christopher-tack.squarespace.com" color='blue'><Icon name='camera' /> My Photo Work</Button>
                             <p />
                         </Grid.Column>
                         <Grid.Column>
-                            <Button target="_blank" href="http://www.linkedin.com/in/christophertack" color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
+                            <Button target="_blank" href="https://www.linkedin.com/in/christophertack" color='linkedin'><Icon name='linkedin' /> LinkedIn</Button>
                             <p />
                         </Grid.Column>
                         <Grid.Column>

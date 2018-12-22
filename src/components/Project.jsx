@@ -2,15 +2,11 @@ import React, {Component} from 'react';
 import './Project.css'
 import {
     Button,
-    Column,
-    Container,
-    Divider,
     Grid,
     Header,
     Icon,
     Image,
     List,
-    Responsive,
     Segment,
 } from 'semantic-ui-react'
 
@@ -38,11 +34,11 @@ class Project extends Component {
                                 <li>CSS</li>
                                 <li>Vanilla JS</li>
                             </List>
-                            <Button href="https://tackc.github.io/memory-game/">View the App</Button>
-                            <Button href="https://github.com/tackc/memory-game">View the Code</Button>
+                            <Button target="_blank" href="https://tackc.github.io/memory-game/">View the App</Button>
+                            <Button target="_blank" href="https://github.com/tackc/memory-game"><Icon name='code' />View the Code</Button>
                         </Grid.Column>
 
-                        <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+                        {/* <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                             <Header as='h3' style={{ fontSize: '2em' }}>
                             Tool Library
                             </Header>
@@ -62,9 +58,9 @@ class Project extends Component {
                                 <li>RESTful</li>
                                 <li>mongoDB</li>
                             </List>
-                            <Button href="https://still-spire-43106.herokuapp.com/">View the App</Button>
-                            <Button href="https://github.com/tackc/toollibrary/">View the Code</Button>
-                        </Grid.Column>
+                            <Button target="_blank" href="https://still-spire-43106.herokuapp.com/">View the App</Button>
+                            <Button target="_blank" href="https://github.com/tackc/toollibrary/">View the Code</Button>
+                        </Grid.Column> */}
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                             <Header as='h3' style={{ fontSize: '2em' }}>
@@ -85,8 +81,8 @@ class Project extends Component {
                                 <li>mapbox API</li>
                                 <li>OneBusAway API</li>
                             </List>
-                            <Button href="https://nameless-harbor-37613.herokuapp.com/">View the App</Button>
-                            <Button href="https://github.com/tackc/SeattleTransit?files=1">View the Code</Button>
+                            <Button target="_blank" href="https://nameless-harbor-37613.herokuapp.com/">View the App</Button>
+                            <Button target="_blank" href="https://github.com/tackc/SeattleTransit?files=1"><Icon name='code' />View the Code</Button>
                         </Grid.Column>
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
@@ -105,8 +101,8 @@ class Project extends Component {
                                 <li>CSS</li>
                                 <li>National Parks Service API</li>
                             </List>
-                            <Button href="https://nationalparksfinder.herokuapp.com/">View the App</Button>
-                            <Button href="https://github.com/tackc/proj4-national-park-finder?files=1">View the Code</Button>
+                            <Button target="_blank" href="https://nationalparksfinder.herokuapp.com/">View the App</Button>
+                            <Button target="_blank" href="https://github.com/tackc/proj4-national-park-finder?files=1"><Icon name='code' />View the Code</Button>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>
