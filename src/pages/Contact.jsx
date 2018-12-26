@@ -2,15 +2,9 @@ import React from 'react';
 import './Contact.css';
 import {
     Button,
-    Column,
     Container,
-    Divider,
     Grid,
     Icon,
-    Input,
-    List,
-    Responsive,
-    Segment,
 } from 'semantic-ui-react'
 
 const Contact = () => {
@@ -37,7 +31,7 @@ const Contact = () => {
                             <p />
                         </Grid.Column>
                         <Grid.Column>
-                            <Button color='github'><Icon name='github' /> Github</Button>
+                            <Button target="_blank" href="https://github.com/tackc" color='github'><Icon name='github' /> Github</Button>
                             <p />
                         </Grid.Column>
                     </Grid.Row>

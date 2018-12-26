@@ -1,6 +1,7 @@
 import React from 'react';
-import './About.css'
-import Headshot from '../images/headshot.jpg'
+import './About.css';
+import Headshot from '../images/headshot.jpg';
+import ScrollingModel from './ScrollingModal';
 import {
     Grid,
     Header,
@@ -43,6 +44,16 @@ const About = ({ mobile }) => {
                         <Grid.Column floated='right' width={6}>
                             <Image bordered rounded size='large circular' src={Headshot} />
                         </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        {/* <Button color='black'
+                            style={{
+                                margin: '0 auto'
+                            }}
+                            href="{{Resume}}"
+                            ><Icon name='Chris Tack resume' /> View my résumé
+                        </Button> */}
+                        <ScrollingModel style={{margin: '0 auto'}}/>
                     </Grid.Row>
                     <Grid.Row>
                         <Header 

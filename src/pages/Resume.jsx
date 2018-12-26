@@ -1,30 +1,32 @@
 import React, {Component} from 'react';
-import resume from '../images/Chris_Tack_Résumé'
-import { Document, Page } from 'react-pdf';
+import CTresume from './Chris_Tack_Resume.pdf';
+// import { Document, Page } from 'react-pdf';
+import { Document } from 'react-pdf/dist/entry.webpack';
 
 class Resume extends Component {
-    state = {
-        numPages: null,
-        pageNumber: 1,
-    }
+    // state = {
+    //     numPages: null,
+    //     pageNumber: 1,
+    // }
     
-    onDocumentLoadSuccess = ({ numPages }) => {
-        this.setState({ numPages });
-    }
+    // onDocumentLoadSuccess = ({ numPages }) => {
+    //     this.setState({ numPages });
+    // }
     
     render() {
-        const { pageNumber, numPages } = this.state;
+        // const { pageNumber } = this.state;
     
         return (
-        <div>
-            <Document
-            file={resume}
-            onLoadSuccess={this.onDocumentLoadSuccess}
-            >
-            <Page pageNumber={pageNumber} />
-            </Document>
-            <p>Page {pageNumber} of {numPages}</p>
-        </div>
+            <div>
+                <Document
+                file={{CTresume}}
+                onLoadSuccess={this.onDocumentLoadSuccess}
+                onLoadError={console.error}
+                >
+                {/* <Page pageNumber={pageNumber} /> */}
+                </Document>
+                {/* <p>Page {pageNumber} of {numPages}</p> */}
+            </div>
         );
     }
 }
