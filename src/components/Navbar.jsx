@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Switch} from 'react-router-dom';
 
 class Nav extends Component {
 

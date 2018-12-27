@@ -31,7 +31,7 @@ const Contact = () => {
                             <p />
                         </Grid.Column>
                         <Grid.Column>
-                            <Button target="_blank" href="https://github.com/tackc" color='github'><Icon name='github' /> Github</Button>
+                            <Button target="_blank" href="https://github.com/tackc" color='grey'><Icon name='github' /> Github</Button>
                             <p />
                         </Grid.Column>
                     </Grid.Row>
