@@ -38,7 +38,7 @@ class Project extends Component {
                             <Button target="_blank" href="https://github.com/tackc/memory-game"><Icon name='code' />View the Code</Button>
                         </Grid.Column>
 
-                        {/* <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+                        <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                             <Header as='h3' style={{ fontSize: '2em' }}>
                             Tool Library
                             </Header>
@@ -60,7 +60,7 @@ class Project extends Component {
                             </List>
                             <Button target="_blank" href="https://still-spire-43106.herokuapp.com/">View the App</Button>
                             <Button target="_blank" href="https://github.com/tackc/toollibrary/">View the Code</Button>
-                        </Grid.Column> */}
+                        </Grid.Column>
 
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
                             <Header as='h3' style={{ fontSize: '2em' }}>
