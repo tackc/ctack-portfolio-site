@@ -2,6 +2,9 @@
   "name": "ctack-portfolio-site",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "11.6.0"
+  },
   "dependencies": {
     "node": "^11.6.0",
     "react": "^16.6.3",
