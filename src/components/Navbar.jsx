@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Navbar.css';
-// import { HashLink as Link } from 'react-router-hash-link';
-// import {BrowserRouter as Router, Switch} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+import {BrowserRouter as Router, Switch} from 'react-router-dom';
 
 class Nav extends Component {
 
@@ -13,7 +13,7 @@ class Nav extends Component {
                         <h3>Chris Tack</h3>
                         <h6>Full Stack Developer</h6>
                     </div>
-                    {/* <div className="NavLinks">
+                    <div className="NavLinks">
                         <Router>
                             <Switch>
                                 <Link to="home" href="/">Home</Link>
@@ -22,7 +22,7 @@ class Nav extends Component {
                                 <Link to="#contact" href="/contact">Contact</Link>
                             </Switch>
                         </Router>
-                    </div> */}
+                    </div>
                 </nav>
             </div>
 

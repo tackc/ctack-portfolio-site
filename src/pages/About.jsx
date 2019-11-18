@@ -18,7 +18,7 @@ const About = ({ mobile }) => {
                     <Grid.Row>
                         <Header 
                                 as='h1'
-                                content="Developer, Photographer, Designer"
+                                content="Full-Stack Developer, Photographer, Designer"
                                 inverted
                                 style={{
                                     fontSize: mobile ? '2em' : '4em',
@@ -28,7 +28,9 @@ const About = ({ mobile }) => {
                                     marginTop: mobile ? '.5em' : '1em',
                                     margin: '0 auto',
                                 }}>
-                                Developer, Photographer, Designer
+                                Full-Stack Developer <br/> 
+                                Photographer <br/> 
+                                Designer
                             </Header>
                     </Grid.Row>
                     <Grid.Row>
