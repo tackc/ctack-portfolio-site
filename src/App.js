@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import './App.css';
 import Home from './pages/Home';
@@ -12,6 +13,11 @@ class App extends Component {
   render() {
     return (
       <div className="App flex-container">
+        <Helmet>
+          <title>Chris Tack - Full Stack Developer</title>
+          <meta name="description" content="Chris Tack is a Front-End leaning Full Stack Developer in the Greater Seattle Area." />
+          <meta name="keywords" content="Node.js, Javascript, React.js, HTML5, CSS3, Express, Express, Git, GitHub, AWS, Amazon Web Services, REST, API, JSON, Adobe Creative Cloud, Photoshop, Illustrator" />
+        </Helmet>
         <Nav className="AppNav flex-item" />
         <div className="PageContent">
           <Home id="#home" className="AppHome flex-item" />
