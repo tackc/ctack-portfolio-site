@@ -12,7 +12,7 @@ import {
 
 const About = ({ mobile }) => {
     return (
-        <div className="AboutPane">
+        <div id="about" className="AboutPane">
             <Segment style={{ padding: '8em 0em' }} vertical>
                 <Grid container stackable verticalAlign='middle'>
                     <Grid.Row>

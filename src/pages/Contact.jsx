@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
     return (
-        <div className="ContactPane">
+        <div id="contact" className="ContactPane">
             <Container className="flex flex-wrap justify-between py-8 w-1/2 sm:w-full ui centered grid">
                 <Grid columns={4} stackable centered>
                     <Grid.Row>
