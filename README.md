@@ -8,3 +8,6 @@ Thanks for taking the time to check out my web design portfolio! If you'd like t
 * Javascript
 * HTML
 * CSS
+
+### Hosting
+* Hosted on GitHub Pages - deploy by typing 'npm run deploy'

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://tackc.github.io/ctack-portfolio-site",
   "name": "ctack-portfolio-site",
   "version": "1.0.0",
   "private": true,
@@ -18,6 +19,8 @@
     "styled-components": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "parcel ./public/index.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
