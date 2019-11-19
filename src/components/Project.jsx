@@ -14,7 +14,7 @@ class Project extends Component {
 
     render() {
         return (
-            <Segment style={{ padding: '0em' }} vertical>
+            <Segment className="portfolio" style={{ padding: '0em' }} vertical>
                 <Grid celled='internally' columns='equal' stackable>
                     <Grid.Row textAlign='center'>
                         <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
