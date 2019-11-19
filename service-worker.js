@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ctack-portfolio-site/precache-manifest.e33af8245aefa223740c3336cae19348.js"
+  "/ctack-portfolio-site/precache-manifest.79594d19eb287969e3d5092fcf320d8e.js"
 );
 
 self.addEventListener('message', (event) => {
