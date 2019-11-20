@@ -65,14 +65,7 @@ const About = ({ mobile }) => {
                                     marginTop: mobile ? '.5em' : '1em',
                                     margin: '0 auto',
                                 }}>
-                                <Icon name='html5' />
-                                <Icon name='css3' />
                                 <Icon name='github' />
-                                {/* <Icon name='express' /> */}
-                                <Icon name='node js' />
-                                <Icon name='npm' />
-                                <Icon name='python' />
-                                {/* <Icon name='django' /> */}
                             </Header>
                     </Grid.Row>
                 </Grid>
