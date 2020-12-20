@@ -23,7 +23,7 @@ class ScrollingModal extends React.Component {
     render() {
         // const { open, size } = this.state
         return(
-            <Modal trigger={<Button>View my résumé</Button>} size={"fullscreen"}  onClose={this.close}>
+            <Modal trigger={<Button>View my résumé</Button>} onClose={this.close}>
                 <Modal.Content>
                     <Resume handlePrint={this.handlePrint} onClick={this.show('fullscreen')} />
                 </Modal.Content>
