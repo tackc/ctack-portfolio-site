@@ -5,7 +5,7 @@ import './Resume.css';
 const Resume = () => {
     return (
         <div>
-            <iframe src="https://tackc.github.io/resume-template/" frameborder="0"></iframe>
+            <iframe title="resume" src="https://tackc.github.io/resume-template/" frameborder="0"></iframe>
         </div>
     )
 }
