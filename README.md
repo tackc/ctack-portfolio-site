@@ -11,3 +11,5 @@ Thanks for taking the time to check out my web design portfolio! If you'd like t
 
 ### Hosting
 * Hosted on GitHub Pages - deploy by typing 'npm run deploy'
+
+* [Create React App - GitHub Pages Deployment](https://create-react-app.dev/docs/deployment/)
