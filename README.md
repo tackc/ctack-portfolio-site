@@ -1,6 +1,6 @@
 # Chris Tack - Full Stack Developer
 
-Thanks for taking the time to check out my web design portfolio! If you'd like to see some of my photo work, please check out http://tackphoto.com
+Thanks for taking the time to check out my web design portfolio! If you'd like to see some of my photo work, please check out http://tackphoto.com. I also have a website for the Tiny House my wife and I built in 2011 http://www.thetinytackhouse.com
 
 ### Technologies Used
 * React
